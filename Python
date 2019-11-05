@@ -1,0 +1,5 @@
+a = float(input("Entrez le coeficient directeur : \n"))
+b = float(input("Entrez l'ordonnée à l'origine : \n"))
+for x in range(0,10):
+ y = a * x + b
+ print(y)
